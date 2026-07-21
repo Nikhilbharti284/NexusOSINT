@@ -23,3 +23,10 @@ cd NexusOSINT
 
 # Install Dependencies
 pip install -r requirements.txt
+# Single Target Scan (Auto-Detects Target Type)
+python3 nexus.py target@example.com
+python3 nexus.py +919876543210
+python3 nexus.py example.com
+python3 nexus.py username_007
+docker build -t nexusosint .
+docker run --rm nexusosint target@example.com
