@@ -83,7 +83,10 @@ python3 nexus.py example.com
 python3 nexus.py username_007
 ```
 
----
+---<img width="1009" height="966" alt="1000160192" src="https://github.com/user-attachments/assets/381fd112-c3c3-49f1-b0ee-2e1e88464d0e" />
+<img width="1055" height="853" alt="1000160195" src="https://github.com/user-attachments/assets/ecfba608-65ef-4ef5-875c-ea4626dbae28" />
+<img width="1080" height="1372" alt="1000160194" src="https://github.com/user-attachments/assets/607f2eb7-3959-4bc7-88fa-077fe4c52066" />
+
 
 ## 🐳 Docker Deployment
 
