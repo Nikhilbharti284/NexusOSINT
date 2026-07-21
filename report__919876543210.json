@@ -1,0 +1,124 @@
+{
+  "target": "+919876543210",
+  "findings": [
+    {
+      "type": "Truecaller",
+      "value": "Set TC_EMAIL / TC_PASS env vars",
+      "source": "Truecaller",
+      "confidence": "info",
+      "extra": {},
+      "ts": "2026-07-21T12:49:39.583421+00:00"
+    },
+    {
+      "type": "Phone Info",
+      "value": "+919876543210",
+      "source": "libphonenumber",
+      "confidence": "high",
+      "extra": {
+        "valid": true,
+        "country": "India",
+        "carrier": "Airtel",
+        "timezone": [
+          "Asia/Calcutta"
+        ]
+      },
+      "ts": "2026-07-21T12:49:39.588755+00:00"
+    },
+    {
+      "type": "IntelX",
+      "value": "Set INTELX_KEY for deep web",
+      "source": "IntelX",
+      "confidence": "info",
+      "extra": {},
+      "ts": "2026-07-21T12:49:39.605120+00:00"
+    },
+    {
+      "type": "LeakCheck",
+      "value": "Set LEAKCHECK_KEY for leaks",
+      "source": "LeakCheck",
+      "confidence": "info",
+      "extra": {},
+      "ts": "2026-07-21T12:49:39.605259+00:00"
+    },
+    {
+      "type": "Onion Link",
+      "value": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/",
+      "source": "OnionLand",
+      "confidence": "medium",
+      "extra": {},
+      "ts": "2026-07-21T12:49:41.215310+00:00"
+    },
+    {
+      "type": "Onion Link",
+      "value": "http://imageflutgtjxfrn.onion/",
+      "source": "OnionLand",
+      "confidence": "medium",
+      "extra": {},
+      "ts": "2026-07-21T12:49:41.215345+00:00"
+    },
+    {
+      "type": "Onion Link",
+      "value": "http://3bbaaaccczcbdddz.onion/",
+      "source": "OnionLand",
+      "confidence": "medium",
+      "extra": {},
+      "ts": "2026-07-21T12:49:41.215349+00:00"
+    },
+    {
+      "type": "Onion Link",
+      "value": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/",
+      "source": "Ahmia",
+      "confidence": "medium",
+      "extra": {},
+      "ts": "2026-07-21T12:49:41.235822+00:00"
+    },
+    {
+      "type": "Email (Dork)",
+      "value": "error-lite@duckduckgo.com",
+      "source": "DuckDuckGo",
+      "confidence": "low",
+      "extra": {},
+      "ts": "2026-07-21T12:49:42.748400+00:00"
+    },
+    {
+      "type": "Phone (Dork)",
+      "value": "6998207204",
+      "source": "DuckDuckGo",
+      "confidence": "low",
+      "extra": {},
+      "ts": "2026-07-21T12:49:42.749183+00:00"
+    },
+    {
+      "type": "Phone (Dork)",
+      "value": "+919876543210",
+      "source": "DuckDuckGo",
+      "confidence": "low",
+      "extra": {},
+      "ts": "2026-07-21T12:49:42.749190+00:00"
+    },
+    {
+      "type": "Scylla Hit",
+      "value": "Data found",
+      "source": "Scylla",
+      "confidence": "medium",
+      "extra": {},
+      "ts": "2026-07-21T12:49:43.432462+00:00"
+    },
+    {
+      "type": "Phone (Dork)",
+      "value": "8304342532",
+      "source": "DuckDuckGo",
+      "confidence": "low",
+      "extra": {},
+      "ts": "2026-07-21T12:49:46.367582+00:00"
+    },
+    {
+      "type": "Phone (Dork)",
+      "value": "8688077000",
+      "source": "DuckDuckGo",
+      "confidence": "low",
+      "extra": {},
+      "ts": "2026-07-21T12:49:49.680980+00:00"
+    }
+  ]
+}
