@@ -1,4 +1,3 @@
-
 # 🚀 NexusOSINT v12.2
 
 <p align="center">
@@ -60,55 +59,60 @@
 git clone [https://github.com/Nikhilbharti284/NexusOSINT.git](https://github.com/Nikhilbharti284/NexusOSINT.git)
 cd NexusOSINT
 
-<br>
-
 # Install Required Dependencies
 pip install -r requirements.txt
+```
 
-<br>
+---
 
-🚀 Usage Guide
-NexusOSINT automatically detects the type of target passed to it:
-bash
+## 🚀 Usage Guide
+
+`NexusOSINT` automatically detects the type of target passed to it:
+
+```bash
 # 1. Email Reconnaissance
 python3 nexus.py target@example.com
-
-<br>
 
 # 2. Phone Number Investigation
 python3 nexus.py +919876543210
 
-<br>
-
 # 3. Domain Footprinting & Subdomain Enumeration
 python3 nexus.py example.com
 
-<br>
-
 # 4. Username Social Footprinting
 python3 nexus.py username_007
+```
 
-<br>
+---
 
-🐳 Docker Deployment
+## 🐳 Docker Deployment
+
 Run NexusOSINT in an isolated container environment without installing dependencies locally:
-bash
+
+```bash
 # Build Docker Image
 docker build -t nexusosint .
 
-<br>
-
 # Run Containerized Scan
 docker run --rm nexusosint target@example.com
+```
 
-<br>
+---
 
-📊 Output & Reports
+## 📊 Output & Reports
+
 Scan results are formatted and automatically saved to the output directory:
-• JSON Report: reports/scan_result.json (Ideal for scripting and automation pipelines)
-• HTML Report: reports/scan_result.html (Interactive browser-friendly presentation)
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
-⚖️ Disclaimer
-This tool is strictly intended for legal security research, authorized penetration testing, and educational purposes. Do not execute scans against unauthorized targets.
+* **JSON Report:** `reports/scan_result.json` (Ideal for scripting and automation pipelines)
+* **HTML Report:** `reports/scan_result.html` (Interactive browser-friendly presentation)
 
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+
+---
+
+## ⚖️ Disclaimer
+
+This tool is strictly intended for legal security research, authorized penetration testing, and educational purposes. Do not execute scans against unauthorized targets.
