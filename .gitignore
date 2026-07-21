@@ -1,0 +1,8 @@
+report_*.json
+report_*.html
+report_*.csv
+web_accounts_list.json
+technologies.json
+__pycache__/
+*.pyc
+.env
